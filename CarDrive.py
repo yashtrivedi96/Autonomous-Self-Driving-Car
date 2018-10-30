@@ -1,8 +1,8 @@
-import time
-import socket
-import nxt
-import nxt.bluesock
-import cv2
+import time as t
+import socket as s
+import nxt as n
+from nxt import bluesock as b
+import cv2 as c
 import numpy as np
 
 class VideoStreamHandler(object):
